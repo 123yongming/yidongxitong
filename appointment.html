@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>预约详情</title>
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="banner">
+
+        <div class="container">
+            <a class="go-back-link" href="javascript:history.back();"><i class="fa fa-arrow-left"></i></a>
+            <p></p>
+            <div class="search">
+                <div>
+                    <b>
+                    <input type="text" placeholder="                                                                                                              此处搜索">
+                    <el-button type="primary" icon="el-icon-search">搜索</el-button>
+                  </b>
+                </div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="schbox">
+                        <div class="col-md-4 col-sm-12 col-xs-12 appointment">
+                            <div class="schbox-title">
+                                <h2>基本信息</h2>
+                            </div>
+                            <form role="form" class="appointform">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="姓名">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="邮箱">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="phone" placeholder="电话">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="date" class="form-control" id="date" placeholder="日期">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="message" placeholder="备注" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <button type="submit" class="btn orange">预约</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-8 col-sm-10 col-xs-12 working">
+                            <div class="schbox-title">
+                                <h2>医院信息</h2>
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <div class="timing">
+                                    <h6>夏令时间</h6>
+                                    <p><strong>上午 8:00-11:30 上午 8:00-11:30</strong></p>
+                                    <h6>冬令时间</h6>
+                                    <p><strong>上午 8:00-11:30 上午 8:00-11:30</strong></p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7 col-xs-12">
+                                <div class="emergency">
+                                    <p>联系电话</p>
+                                    <p class="emer"><i class="el-icon-phone"></i>0574-87018701</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <p class="address">传真:0574-87392232</p>
+                                <!-- <div class="addressdiv">
+                  <p>0574-87392232</p>
+                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="top-head">贴心服务</h3>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="servicebox text-center"> <img src="images/pym_kuaisu.png" />
+                        <h4>快速问诊</h4>
+                        <p>24小时问诊服务</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="servicebox text-center"> <img src="images/pym_yao.png" />
+                        <h4>问诊用药</h4>
+                        <p>在线免费问诊用药</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="servicebox text-center"> <img src="images/pym_zhuanjia.png" />
+                        <h4>专家门诊</h4>
+                        <p>预约专家门诊服务</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
